@@ -14,3 +14,8 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 &lt U_BUTTON Z,    &hm RALT X,        &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &hm RALT DOT,      &lt U_BUTTON SLASH,\
 U_NP,              U_NP,              &lt U_MEDIA ESC,   &lt U_NAV BSPC,    &lt U_MOUSE DEL,   &lt U_SYM RET,     &lt U_NUM SPC,     &lt U_FUN TAB,     U_NP,              U_NP
 
+#define MIRYOKU_ALTERNATIVES_MOUSE \
+&kp LBKT,          &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+&kp SEMI,          &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         U_NA,              U_NU,              U_MS_L,            U_MS_D,            U_MS_U,            U_MS_R,            \
+&kp GRAVE,         &kp NUM_1,         &kp NUM_2,         &kp NUM_3,        &kp NUM_0,          U_NU,              U_WH_L,            U_WH_D,            U_WH_U,            U_WH_R,            \
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
