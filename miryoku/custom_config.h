@@ -2,7 +2,7 @@
 // https://github.com/manna-harbour/miryoku
 
 #define MIRYOKU_LAYER_MEDIA \
-&u_bootloader,     &to U_TAP,         &to U_EXTRA,       &to U_BASE,        U_NA,              &kp LS,            &u_bt_sel_0,       &u_bt_sel_1,       &u_bt_sel_2,       &u_bt_sel_3,       \
+&u_bootloader,     &to U_TAP,         &to U_EXTRA,       &to U_BASE,        U_NA,              &kp LS,            U_NA,              U_NA,              U_NA,              U_NA,       \
 &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         U_NA,              &u_ep_tog,         &kp C_PREV,        &kp C_VOL_DN,      &kp C_VOL_UP,      &kp C_NEXT,        \
 &kp LG(Z),         &kp LG(X),         &kp LG(C),         &kp LG(V),         U_RDO,             &u_out_tog,        &u_bt_sel_0,       &u_bt_sel_1,       &u_bt_sel_2,       &u_bt_sel_3,       \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp C_STOP,        &kp C_PP,          &kp C_MUTE,        U_NP,              U_NP
@@ -22,5 +22,5 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 #define MIRYOKU_LAYER_NAV \
 &u_bootloader,     &to U_TAP,         &to U_EXTRA,       &to U_BASE,        U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           \
+&kp LC(TAB),       &kp LG(W),         &kp LG(L),         &kp LC(LS(TAB)),   U_NA,              &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
