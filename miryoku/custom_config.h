@@ -19,6 +19,13 @@
 // &lt U_BUTTON Z,    &hm RALT X,        &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &hm RALT DOT,      &lt U_BUTTON SLASH,\
 // U_NP,              U_NP,              &lt U_MEDIA ESC,   &lt U_NAV BSPC,    &lt U_MOUSE DEL,   &lt U_SYM RET,     &lt U_NUM SPC,     &lt U_FUN TAB,     U_NP,              U_NP
 
+#define MIRYOKU_LAYER_BASE \
+&kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
+U_MT(LGUI, A),     U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,             &kp H,             U_MT(LSHFT, J),    U_MT(LCTRL, K),    U_MT(LALT, L),     U_MT(LGUI, SQT),   \
+U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
+U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, BSPC), U_LT(U_MOUSE, DEL),U_LT(U_SYM, RET),  U_LT(U_NUM, SPC),  U_LT(U_FUN, TAB),  U_NP,              U_NP
+
+
 // #define MIRYOKU_LAYER_MOUSE \
 // &kp LBKT,          &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 // &kp SEMI,          &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         U_NA,              U_NU,              U_MS_L,            U_MS_D,            U_MS_U,            U_MS_R,            \
