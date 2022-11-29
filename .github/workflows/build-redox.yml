@@ -1,7 +1,7 @@
 # Copyright 2021 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Build Example tbkmini nice_nano_v2'
+name: 'Build Journey'
 on: workflow_dispatch
 jobs:
   build:
@@ -9,4 +9,7 @@ jobs:
     secrets: inherit
     with:
       board: '["nice_nano_v2"]'
-      shield: '["tbkmini_left","tbkmini_right"]'
+      shield: '["redox_left","redox_right"]'
+      kconfig: '["CONFIG_BT_CTLR_TX_PWR_PLUS_8=y"]'
+
+      
